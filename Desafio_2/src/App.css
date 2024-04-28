@@ -1,0 +1,69 @@
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+}
+.contenedor{
+    width: 30rem;
+    height: 40rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.socialBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imganes{
+    width: 80px;
+}
+
+.btnsocial{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#formBasicPasswordConfirming{
+    width: 350px;
+}
+
+#btnEnvio{
+    width: 350px;
+}
+
+.Alert{
+    border: 1px solid #EEB3BC;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #F6D7DA;
+    color:#713B45;
+}
+
+.AlertOk{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: greenyellow;
+}
